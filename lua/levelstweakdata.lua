@@ -1087,6 +1087,7 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.bph.player_style = "sneak_suit"
 			self.pex.player_style = "sneak_suit"
 			self.sand.player_style = "sneak_suit"
+			self.corp.player_style = "sneak_suit"
 			self.skm_mus.player_style = "sneak_suit"
 
 			-- Winter Camo Parka
@@ -1097,7 +1098,7 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			
 			-- The Casual Formal
 			self.brb.player_style = "peacoat"
-			
+
 			-- Tuxedo
 			self.kenaz.player_style = "tux"
 			self.fish.player_style = "tux"
@@ -1105,21 +1106,20 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.chca.player_style = "tux"
 			self.fex.player_style = "tux"
 			self.skm_cas.player_style = "tux"
-
-			-- Murkywater Uniform
-			self.pbr2.player_style = "murky_suit"
-			self.vit.player_style = "murky_suit"
-            
+			
 			-- The Classic
 			self.arm_cro.player_style = "jumpsuit"
 			self.arm_fac.player_style = "jumpsuit"
 			self.arm_hcm.player_style = "jumpsuit"
 			self.arm_par.player_style = "jumpsuit"
 			self.arm_und.player_style = "jumpsuit"
-			
+
+			-- Murkywater Uniform
+			self.pbr2.player_style = "murky_suit"
+			self.vit.player_style = "murky_suit"
+
 			-- Legacy Tactical
 			self.arm_for.player_style = "slaughterhouse"
-			self.cane.player_style = "slaughterhouse"
 			self.alex_1.player_style = "slaughterhouse"
 			self.alex_2.player_style = "slaughterhouse"
 			self.alex_3.player_style = "slaughterhouse"
@@ -1127,6 +1127,8 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.escape_overpass_night.player_style = "slaughterhouse"
 			self.escape_garage.player_style = "slaughterhouse"
 			self.rat.player_style = "slaughterhouse"
+			self.born.player_style = "slaughterhouse"
+			self.chew.player_style = "slaughterhouse"
 			self.welcome_to_the_jungle_1.player_style = "slaughterhouse"
 			self.welcome_to_the_jungle_1_night.player_style = "slaughterhouse"
 			self.welcome_to_the_jungle_2.player_style = "slaughterhouse"
@@ -1136,17 +1138,15 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.watchdogs_2_day.player_style = "slaughterhouse"
 			self.mia_1.player_style = "slaughterhouse"
 			self.mia_2.player_style = "slaughterhouse"
+			self.peta.player_style = "slaughterhouse"
+			self.peta2.player_style = "slaughterhouse"
 			self.crojob2.player_style = "slaughterhouse"
 			self.crojob3.player_style = "slaughterhouse"
 			self.crojob3_night.player_style = "slaughterhouse"
 			self.shoutout_raid.player_style = "slaughterhouse"
 			self.man.player_style = "slaughterhouse"
 			self.spa.player_style = "slaughterhouse"
-			self.born.player_style = "slaughterhouse"
-			self.chew.player_style = "slaughterhouse"
 			self.pbr.player_style = "slaughterhouse"
-			self.peta.player_style = "slaughterhouse"
-			self.peta2.player_style = "slaughterhouse"
 			self.des.player_style = "slaughterhouse"
 			self.mex.player_style = "slaughterhouse"
 			self.mex_cooking.player_style = "slaughterhouse"
@@ -1154,6 +1154,7 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.trai.player_style = "slaughterhouse"
 			self.deep.player_style = "slaughterhouse"
 			self.pines.player_style = "slaughterhouse"
+			self.cane.player_style = "slaughterhouse"
 			self.skm_watchdogs_stage2.player_style = "slaughterhouse"
 		end
 	end
