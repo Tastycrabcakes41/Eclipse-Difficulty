@@ -1087,11 +1087,16 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.bph.player_style = "sneak_suit"
 			self.pex.player_style = "sneak_suit"
 			self.sand.player_style = "sneak_suit"
-			self.corp.player_style = "sneak_suit"
 			self.skm_mus.player_style = "sneak_suit"
 
 			-- Winter Camo Parka
 			self.mad.player_style = "winter_suit"
+			
+			-- The Boom Rap
+			self.arena.player_style = "hiphop"
+			
+			-- The Casual Formal
+			self.brb.player_style = "peacoat"
 
 			-- Tuxedo
 			self.kenaz.player_style = "tux"
@@ -1104,12 +1109,22 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			-- Murkywater Uniform
 			self.pbr2.player_style = "murky_suit"
 			self.vit.player_style = "murky_suit"
-
+			
+			-- The Classic
+			self.arm_cro.player_style = "jumpsuit"
+			self.arm_fac.player_style = "jumpsuit"
+			self.arm_hcm.player_style = "jumpsuit"
+			self.arm_par.player_style = "jumpsuit"
+			self.arm_und.player_style = "jumpsuit"
+			
 			-- Legacy Tactical
 			self.arm_for.player_style = "slaughterhouse"
 			self.alex_1.player_style = "slaughterhouse"
 			self.alex_2.player_style = "slaughterhouse"
 			self.alex_3.player_style = "slaughterhouse"
+			self.escape_overpass.player_style = "slaughterhouse"
+			self.escape_overpass_night.player_style = "slaughterhouse"
+			self.escape_garage.player_style = "slaughterhouse"
 			self.rat.player_style = "slaughterhouse"
 			self.welcome_to_the_jungle_1.player_style = "slaughterhouse"
 			self.welcome_to_the_jungle_1_night.player_style = "slaughterhouse"
@@ -1126,13 +1141,19 @@ Hooks:PostHook(LevelsTweakData, "init", "eclipse_init", function(self)
 			self.shoutout_raid.player_style = "slaughterhouse"
 			self.man.player_style = "slaughterhouse"
 			self.spa.player_style = "slaughterhouse"
+			self.peta.player_style = "slaughterhouse"
+			self.peta2.player_style = "slaughterhouse"
 			self.pbr.player_style = "slaughterhouse"
+			self.cane.player_style = "slaughterhouse"
 			self.des.player_style = "slaughterhouse"
 			self.mex.player_style = "slaughterhouse"
 			self.mex_cooking.player_style = "slaughterhouse"
+			self.born.player_style = "slaughterhouse"
+			self.chew.player_style = "slaughterhouse"
 			self.ranc.player_style = "slaughterhouse"
 			self.trai.player_style = "slaughterhouse"
 			self.deep.player_style = "slaughterhouse"
+			self.pines.player_style = "slaughterhouse"
 			self.skm_watchdogs_stage2.player_style = "slaughterhouse"
 		end
 	end
